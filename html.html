@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Login Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <body>
+    <!-- Background Toggle Switch in the upper-right corner -->
+  <div class="bg-toggle">
+    <label class="switch">
+      <input type="checkbox" id="toggleBackground">
+      <span class="slider"></span>
+    </label>
+  </div>
+
+    <!-- Logo in the upper-left corner -->
+    <div class="logo">
+      <img src="FOODIT LOGO.png" alt="Logo">
+    </div>
+  <div class="container">
+    <div class="login-box">
+      <div class="food-image">
+        <img src="pic1.png" alt="Food Image">
+      </div>
+      <div class="login-form">
+        <h2>Login</h2>
+        <form action="dashboard.html" method="post">
+          <div class="input-group">
+            <input type="email" id="email" placeholder="Email" required>
+          </div>
+          <div class="input-group">
+            <input type="password" id="password" placeholder="Password" required>
+            <span class="show-password" id="togglePassword">👁</span>
+          </div>
+          <div class="forgot-password">
+            <a href="#">Forgot Password?</a>
+          </div>
+          <button type="submit" class="btn">Sign in</button>
+          <p class="register">Don't have an account yet? <a href="Register.html" id="register-link">Create Account</a></p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+  <div class="container">
+    <div class="login-box">
+      <div class="login-form">
+        <h2>Register</h2>
+        <form action="welcome.html" method="post">
+          <div class="input-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Your full name" required>
+          </div>
+          <div class="input-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Your email address" required>
+          </div>
+          <div class="input-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" placeholder="Your phone number" required pattern="[0-9]{10}">
+          </div>
+          <div class="input-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Create a password" required>
+          </div>
+          <button type="submit" class="btn">Register</button>
+          <p class="login">Already have an account? <a href="html.html">Login here</a></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
